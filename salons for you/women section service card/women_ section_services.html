@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Men section</title>
+    <link rel="stylesheet" href="women_service_card.css" />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <!-- remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <script src="women_section_service.js" defer></script>
+  </head>
+  <body>
+    <div class="header-sectioon">
+      <div class="nav-bar">
+        <div class="logo-div">
+          <h1>logo</h1>
+        </div>
+        <div class="right-nav">
+          <i class="ri-map-pin-line"></i>
+          <input type="text" id="inputField" required />
+          <label id="location" for="inputField">Location</label>
+
+          <i class="ri-search-2-line"></i>
+          <input type="text" id="inputField" required />
+          <label id="location1" for="inputField1">Search</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainbody">
+        <div class="leftbox">
+            <div class="upper">
+                <h2>Salon Prime for <br> Women </h2>
+            </div>
+        
+            <div class="lower">
+            
+                <div class="infoservice">Select a service</div>
+                <div class="images" id="imageGallery">
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="a.png" alt="">
+                        <div class="imgstylename"><p>Bestsellers</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="k.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Haircut</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="k2-removebg-preview (4).png" alt="">
+                        <div class="imgstylename">
+                            <p>Crew cut</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+                   
+    
+    
+                     <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="w1.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Blow-dry</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+    
+    
+     <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="w2.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Threading</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="w3.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Waxing</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+    
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="a.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Haircut</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+    
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="b.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p id="b">beard styling</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+    
+                    <div class="imgbox">
+                        <div class="imageContainer">
+                       <img class="dynamicImage" src="e.jpeg" alt="">
+                        <div class="imgstylename">
+                            <p>Hair color</p>
+                            <!-- <div class="style"></div> -->
+                        </div>
+                        <div class="style"></div>
+                        </div>
+                    </div>
+                    
+                    </div>
+    
+    
+    
+            </div>
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="rightbox">
+        <div class="CardServices" >
+          <div class="card" id="card-container">
+            <!-- <div class="service-card">
+              <div class="left-container">
+                <h3>Hair Spa And Style</h3>
+                <p>Rs 499 <s>Rs549</s></p>
+                <h4>60 min</h4>
+                <h5>description</h5>
+            
+              </div>
+              <div class="right-container">
+                <img src="w1.jpeg" alt="img is not found" />
+              </div>
+              <button id="book_button" class="book_button">Book Now</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="home" id="home">
+        <div class="items" id="items">
+            <img src="items.PNG" alt="" id="items1">
+            <p id="items2">Not Book any service</p>
+        </div>
+
+
+
+        <div class="offers">
+            <div class="buy-save">
+                <span><p>%</p></span>
+                <div class="text">
+                    <h4>Bay more Save More</h4>
+                    <p>RS 100 on 7 items onwards</p>
+                </div>
+                </div>
+                <div class="button">
+                    <p class="more">View more offers <i class="ri-arrow-right-line"></i> </p>
+                </div>
+            
+        </div>
+        <div class="promiss">
+            <div class="list">
+                <h3>UC Promise</h3><br>
+                <div class="tick"><i class="ri-check-fill"></i><p>Verified Professionals</p></div><br>
+                <div class="tick"><i class="ri-check-fill"></i><p>Hassle Free Booking</p></div><br>
+                <div class="tick"><i class="ri-check-fill"></i><p>Transparent Pricing</p></div>
+            </div>
+            <div class="img">
+                <img src="d.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+  </body>
+</html>

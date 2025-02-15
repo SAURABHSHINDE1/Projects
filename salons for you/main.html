@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salons | for you...</title>
+    <link rel="stylesheet" href="main.css" />
+    <!-- Remix icon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+ 
+    <!-- Importing JavaScript file -->
+    <script src="main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+ 
+    <div class="location-hidden-opacity"></div>
+    <div class="user_location" id="userloc">
+      <div class="location_close"><i class="ri-close-fill"></i></div>
+      <a id="" href="#" style="font-size: 30px; text-decoration: none; color: black; margin-top: 20px;"> <i class="ri-map-pin-user-line"></i></a>
+      <p id="get-location" style="cursor: pointer;">Use current location</p>
+      <input type="text" id="location1223" placeholder="Search your location..">
+    </div>
+    <div class="header">
+      <div class="nav-bar">
+        <div class="logo-div">
+          <img
+            src="./assaets/HM-hair-salon-logo.png"
+            alt=""/>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <i class="ri-search-2-line"></i>
+        </div>
+        <div class="location">
+          <i class="ri-map-pin-line"></i>
+          <input type="text" placeholder="Choose location.." id="input_location">
+        </div>
+        <div class="manu-bar">  
+          
+          <a id="menu" href="./women section service card/women_ section_services.html" target="_self" >Services</a>
+
+          <a id="menu" href="./bookings/booking.html" target="_self">Booking</a>
+          <a id="menu" href="#footer">About Us</a>
+          
+        </div>
+        <div class="cart-login">
+          <a id="cart" href="#"><i class="ri-shopping-cart-2-line"></i></a>
+          <div class="div-login" onclick="toggleDiv()">
+            <i class="ri-user-line"></i>
+          </div>
+
+          <div class="hidden-div " id="secondDiv" style="display: none">
+            <a href="#" id="hideen-button">
+              <div class="login-div saurabh" id="login">
+                <h3 id="login11">Login</h3>
+              </div>
+            </a>
+
+            <a href="#" id="hideen-button"  class="toggle_signup">
+              <div class="login-div">
+                <h3>Sign up</h3>
+              </div>
+            </a>
+          </div>
+
+          <div id="logout-div" style="display: none;" >
+            <button id="logout-button">Logout</button>
+            </div>
+        </div>
+      </div>
+
+  
+      <div id="toggleDiv" class="hidden  hidden-container">
+          <div class="close-div" id="close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <div class="form">
+            <h1 id="login1">login</h1>
+
+            <label for="xyz">Email</label>
+            <input type="text" id="id1" name="id">
+
+            <label for="pass">Enter password</label>
+            <input type="password" id="pass" name="pass">
+
+            <button type="submit" onclick="validateForm()" id="loginbutton">Submit</button>
+          </div>
+
+
+
+
+
+
+
+      </div>
+
+      
+      <div id="toggleDiv1" class="hidden1 hidden-container1">
+        <div class="close-div1" id="close1">
+            <i class="ri-close-line"></i>
+        </div>
+        <div class="form">
+            
+          <h1 style="margin-left: 150px;">Sign up</h1>
+          <label for="name">Email</label>
+          <input type="text" id="input1" name="id">
+
+          <label for="password">Password</label>
+          <input type="tel" id="input2" name="phone">
+
+          <label for="pass">Confirm password</label>
+          <input type="password" id="input3" name="pass">
+
+
+          <button type="submit" id="signup" >Sign Up</button>
+      </div>
+
+    </div>
+
+       
+
+    </div>
+
+      <!-- servises divs -->
+      <div class="services-video-container">
+        <div class="services-div" id="servicediv">
+            <a href="#" id="top_service"></a>
+          <!-- <div class="service-type">
+            <div class="service_img"> <img src="" alt=""></div>
+            <div class="service_name">women</div>
+          </div> -->
+        </div>
+
+        <!-- video div  -->
+
+        <div class="video-div">
+          <video autoplay muted loop>
+            <source
+              src="./assaets/Fire Barber Shop Promo - ATLMDERON.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Near by salons div  -->
+
+    <div class="near-by-salon">
+      <h1>Near by salons</h1>
+    </div>
+
+    <div class="cart-container">
+      <div class="card1" id="card_container">
+        <!-- <div class="card">
+          <img src="" alt="img" />
+        </div> -->
+      </div>
+    </div>
+
+    <!-- banner -->
+
+    <div class="long-vertical-banner">
+        <div class="banner-container">
+          <img src="./assaets/banner3.jpg" alt="imges">
+        </div>
+      </div>
+
+      <!-- women section -->
+
+      <div class="heading-women-services">
+        <h1>Women Services</h1>
+      </div>
+
+      <div class="mainbox2" id="women-section-card">
+             <!-- <div class="women-card-container">
+              <div class="upper_img_div">
+                <img src="" alt="">
+              </div>
+              <div class="lower-info-div">
+                <h2>Women Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+              </div>
+             </div> -->
+      </div>  
+      
+
+
+        <div class="heading-kid-services">
+          <h1>Kids Services</h1>
+        </div>
+
+        <div class="kids-section" id="kid-section-card">
+          <!-- <div class="card-for-kid">
+            <div class="kid-upper"> <img src="" alt=""></div>
+            <div class="kid-lower">
+              <h2>service-name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+            </div>
+            </div> -->
+        </div>  
+
+
+        <div class="men-section-services">
+          <h1>Men Services</h1>
+        </div>
+
+        <div class="men-section" id="men-section-card">
+          <!-- <div class="car-for-men">
+            <div class="men-upper"> <img src="" alt=""></div>
+            <div class="men-lower">
+              <h2>service-name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+            </div>
+            </div> -->
+        </div>  
+
+
+        <div class="massage-services">
+          <h1>Massage Services</h1>
+        </div>
+
+        <div class="Massage-section" id="massage-section-card">
+          <!-- <div class="card-for-massage">
+            <div class="massage-upper"> <img src="" alt=""></div>
+            <div class="massage-lower">
+              <h2>service-name</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.</p>
+            </div>
+            </div> -->
+        </div>  
+
+
+        <div class="footer-section" id="footer">
+          <div class="footer-section1">
+            <div class="upper">
+              <img src="./assaets/HM-hair-salon-logo.png" alt="">
+            </div>
+            <div class="lower">
+              <h3 id="footer-heading">company</h3>
+              <ul type="none">
+                <li>About us</li>
+                <li>Terms &amp; Conditions</li>
+                <li>privacy policy</li>
+                <li>careers</li>
+              </ul> 
+            </div>
+          </div>
+          <div class="footer-section1">
+            <div class="upper1"></div>
+            <div class="lower1">
+              <h3 id="footer-heading">For Customers</h3>
+              <ul type="none">
+                <li>company review</li>
+                <li>categories Near You</li>
+                <li>Blog</li>
+                <li>contact us</li>
+              </ul> 
+            </div>
+          </div>
+          <div class="footer-section1">
+            <div class="upper1"></div>
+            <div class="lower1">
+              <h3 id="footer-heading">For Fartener</h3>
+              <ul type="none">
+                <li>Register As a professional</li>
+                
+              </ul> 
+            </div>
+          </div>
+          <div class="footer-section1">
+            <div class="upper1"></div>
+            <div class="lower1">
+              <h3 id="footer-heading">Follow Us</h3>
+              <a href="https://www.facebook.com/share/19WcgEUEBH/"  id="icon_link"><div class="social-media-icons">
+                <div class="social-icon">
+                  <i class="ri-facebook-circle-line"></i>
+                </div>
+              </a>
+
+               <a href="https://www.instagram.com/dreamsguideredu?igsh=ZjFseHpiZ2ZkaXR1"  id="icon_link" > <div class="social-icon">
+                  <i class="ri-instagram-line"></i>
+                </div></a>
+
+                <a href="https://www.linkedin.com/company/dreamsguider/"  id="icon_link"><div class="social-icon">
+                  <i class="ri-linkedin-box-line"></i>
+                </div></a>
+
+                <a href=""  id="icon_link"><div class="social-icon">
+                  <i class="ri-twitter-line"></i>
+              </div></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="copyright">
+          <p> © Copyright 2024 company name. All rights reserved.</p>
+        </div>
+    
+
+  </body>
+</html>

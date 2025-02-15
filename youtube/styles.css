@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(235, 236, 236);
+}
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    /* background-color: darkorange; */
+    display: flex;
+}
+
+.left-nav{
+    height: 100%;
+    width: 5%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8vw;
+}
+
+.left1-nav{
+    height: 100%;
+    width: 20%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left1-nav i{
+    font-size: 2.8vw;
+    color: red;
+}
+ 
+.left1-nav h3{
+    font-size: 2vw;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+.mid-nav{
+    height: 100%;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.mid-nav input{
+    height: 84%;
+    width: 100%;
+    border-radius: 50px;
+    font-size: 1.3vw;
+    padding-left: 3vw;
+    border: none;
+    margin-top: 1vw;
+}
+
+.search{
+    height: 85%;
+    width: 7%;
+    background-color: rgb(214, 214, 214);
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: absolute;
+    left: 634px;
+    top:11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mid1-nav{
+    height: 100%;
+    width: 5%;
+    /* background-color: blueviolet; */
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+    margin-top: .5vw;
+}
+
+.right-nav{
+    height: 100%;
+    width: 20%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 1.8vw;
+    padding-top: 1vw;
+}
+
+.user{
+    height: 45px;
+    width: 45px;
+    background-image: url(_DSC0332.JPG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+

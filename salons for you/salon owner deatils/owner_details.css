@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(242, 242, 242);
+}
+.cards{
+    height: 600px;
+    width: 90%;
+    background-color: rgb(65, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.card{
+    height: 80%;
+    width: 90%;
+    /* background-color: rgb(94, 119, 142); */
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+
+.card::-webkit-scrollbar{
+    display: none ! important;
+}
+
+.cardimg{
+    height: 100%;
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+.cardimg img{
+    height: 100%;
+    width: 100%;
+   overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.cardp{
+    height: 70%;
+    width: 80%;
+    border-radius: 40px;
+    background-color: rgb(193, 199, 204);
+    display: flex;
+    
+    
+   
+    
+}
+.cardinfo{
+    height: 100%;
+    width: 60%;
+    padding: 30px;
+    /* border-radius: 20px; */
+    /* background-color: lightgoldenrodyellow; */
+}
+.cardinfo p{
+    height: 40px;
+    width: 100%;
+    line-height: 1;
+    font-size: 20px;
+    /* background-color: aqua; */
+}
+.serv{
+    margin-top: 20px;
+    font-size: 20px;
+    /* height: 30px; */
+    font-weight: 600;
+    /* background-color: azure; */
+}
+ ol li{
+    margin-left: 120px;
+    font-size: 20px;
+    line-height: 2;
+}

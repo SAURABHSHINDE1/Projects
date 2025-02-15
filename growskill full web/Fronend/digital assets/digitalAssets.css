@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+
+.logo-div{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 110px;
+}
+
+.logo-div img{
+    /* height: 90%; */
+    width: 10rem;
+}
+
+.menu-div{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Poppins", serif;
+}
+
+.menu-div a{
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.menu-div a:hover{
+    color: rgb(16, 218, 16);
+}
+
+.accounts{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    gap: 19px;
+    position: relative;
+}
+
+.cartcount{
+    height: 18px;
+    width: 18px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    right:118px;
+    top: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+    font-size: 10px;
+
+}
+
+.hidden-acc-div{
+    height: 75px;
+    width: 165px;
+    position: absolute;
+    right: 13%;
+    top: 65px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.div1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.div1:hover{
+    background-color:  rgb(218, 218, 218);
+}
+
+.div2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.div2:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.container{
+    height: 310px;
+    width: 100%;
+    background-color: #000;
+    z-index:2;
+}
+
+.upper-div{
+    height: 50%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+#cou{
+    color: green;
+}
+
+.lower-div{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.corse_row1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+
+.courseNmae{
+    height: 80%;
+    width: fit-content;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corse_row2{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.green{
+    background-color: green;
+}
+
+.assets-container{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding:20px 50px;
+    z-index: 2;
+
+}
+
+.asset-card{
+    height: 250px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 70%;
+    width: 100%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.discription{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --fontfamily: font-family: "Funnel Display", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.booking{
+    height: 550px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* flex-direction: column; */
+    /* background-color: bisque; */
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 40px;
+}
+.booking option{
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.select{
+    height: 100%;
+    width: 400px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px 0px 0px 30px;
+}
+.items{
+    height: 460px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid rgb(220, 216, 216);
+    margin-bottom: 10px;
+}
+.price{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: antiquewhite; */
+    border-radius: 0px 0px 0px 30px;
+    padding-left: 20px;
+    color: #000;
+
+}
+.price h4{
+    margin: 5px;
+    color: #000;
+}
+
+.info{
+    height: 100%;
+    width: 497px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 0px 30px 30px 0px;
+    /* border: 0.1px solid rgb(149, 144, 144); */
+    background-color:rgb(240, 239, 239) ;
+    /* background-color: aqua; */
+    padding: 50px;
+}
+.topbar{
+    height: 50px;
+    width: 100%;
+    /* background-color: aquamarine;     */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    }
+.bookproperty{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+
+}
+.property{
+  height: 50px;
+  width: 100%;
+  display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    /* justify-content: center; */
+    /* background-color: blueviolet; */
+}
+
+
+.propertyDate{
+    height: 50px;
+    width: 500px;
+    display: flex;
+      align-items:center;
+      justify-content: flex-start;
+      margin-top: 10px;
+      /* background-color: aqua; */
+      padding-left: 12px;
+
+}
+.calender{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 80px;
+}
+.days{
+    height:40px ;
+    width: 90px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.month{
+    height:40px ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.time{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 5px;
+    margin-left: 78px;
+}
+.hours{
+    height:40px ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mins{
+    height:40px ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.meridiem{
+    height:40px ;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.property label{
+    display: flex;
+    /* margin-left: 15px; */
+    font-size: large;
+    padding: 15px;
+}
+
+.property input{
+    height: 40px;
+    width: 220px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px;
+    border: 1px solid rgb(76, 72, 72);
+}
+ input:focus{
+    outline: 1px solid rgb(150, 141, 141);
+}
+#b{
+  margin-left: 0px;
+}
+#c{
+    margin-left: 0px;
+  }
+  #d{
+    margin-left: 79px;
+  }
+  #e{
+    margin-left: 75px;
+  }
+  .book span{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(53, 99, 238);
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: larger;
+  
+  }
+  .book a{
+    color: #fff;
+    text-decoration: none;
+}

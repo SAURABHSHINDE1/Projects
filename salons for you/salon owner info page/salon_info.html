@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Salon Owner</title>
+    <link rel="stylesheet" href="salon_info.css">
+    <script src="salon_owner_info.js" defer></script>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Add Salon Owner</h1>
+        <form action="#" method="POST" class="owner-form">
+            <div class="form-section">
+                <h2>Owner Details</h2>
+                <label for="name">Owner Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter owner's name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            </div>
+
+            <div class="form-section">
+                <h2>Salon Information</h2>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" placeholder="Enter salon location" required>
+
+                <label for="service">Services Provided:</label>
+                <input type="text" id="service-1" name="services[]" placeholder="Enter a service" required>
+                <input type="text" id="service-2" name="services[]" placeholder="Enter another service">
+                <input type="text" id="service-3" name="services[]" placeholder="Enter another service">
+                <input type="text" id="service-4" name="services[]" placeholder="Enter another service">
+                <input type="text" id="service-5" name="services[]" placeholder="Enter another service">
+            </div>
+
+            <div class="form-section">
+                <h2>Working Hours</h2>
+                <label for="opening-time">Opening Time:</label>
+                <input type="time" id="opening-time" name="opening-time" required>
+
+                <label for="closing-time">Closing Time:</label>
+                <input type="time" id="closing-time" name="closing-time" required>
+            </div>
+
+            <button type="submit" class="submit-button" onclick=" add_owner_info()">Add Owner</button>
+        </form>
+    </div>
+</body>
+</html>
